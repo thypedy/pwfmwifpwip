@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Comic Neue', cursive;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background-image: url(../img/background-header.jpg);
+    height: 80px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo-loko{
+    width: 125px;
+    height: 50px;
+}
+
+.logo{
+    float: left;
+    padding: 15px;
+    width: 50%;
+}
+
+.redes-sociais ul, .redes-sociais li{
+    display: flex;
+    margin-left: 25px;
+    float: right;
+    list-style-type: none;
+}
+
+.pokebola{
+    width: 80px;
+    height: 80px;
+}
+
+.header-2{
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 5px solid #efefef;
+}
+
+.menu ul, .menu li, .menu a{
+    display: inline-block;
+    color: rgb(255, 255, 58);
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: rgb(102, 64, 241);
+    text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 1px;
+    height: 46px;
+}
+
+.menu ul li:hover{
+    border-bottom: 5px dotted #2a75bb;
+}
+
+.menu ul li a:hover{
+    color: #2a75bb;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: rgb(255, 255, 58);
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.busca{
+    margin-top: 4px;
+    width: 30%;
+    float: right;
+}
+
+.busca input{
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    background-position: 96%;
+    border: 3px solid rgb(236, 164, 164);
+    border-radius: 5px;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev{
+    background-image: url(../img/left\ arrow.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    cursor: pointer;
+}
+
+button.slick-next{
+    background-image: url(../img/left\ arrow.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid #ffcb05;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 800px;
+}
+
+li.slick-active button{
+    background: #2a75bb;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque strong{
+    color: #da572c;
+    font-size: 2.5rem;
+}
+
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #e63900;
+}
+
+.texto-destaque p{
+    color: #f6a400;
+}
+
+.col-3{
+    width: 33.3%;
+    float: left;
+    position: relative;
+}
+
+.col-3 img{
+    width: 200px;
+    height: 200px;
+    padding-left: 63px;
+}
+
+.bloco-texto{
+    margin-top: 2em;
+}
+
+.col-3 h3 {
+    font-weight: normal;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.bloco-imagem {
+    height: 320px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.bloco-imagem b, .bloco-imagem p {
+    text-align: center;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-imagens-texto {
+    background-color: #df5353;
+    padding-bottom: 50px;
+}
+
+.centralizar{
+    display: flex;
+    align-items: center;
+}
+
+.site-footer{
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+hr{
+    margin-top: 10px;
+    border-top-color:#bbb ;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin:0;
+  padding-top: 10px;
+  letter-spacing:2px
+}
+
+.site-footer a
+{
+  color:#ffffff;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.site-footer a:hover
+{
+    box-shadow: inset 100px 0 0 0 #ffffff;
+    color: #222224;
+}
+
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+
+.footer-links li, .col-4 h6{
+    text-align: center;
+}
+
+.bloco-imagens-texto-footer{
+    background-color: #222224;
+    padding-bottom: 25px;
+}
+
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  border-radius:50%;
+  background-color:#33353d
+}
+
+.copyright-text
+{
+    margin:0
+}
+
+.social-icons{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.social-icons li{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.social-icons li.title{
+    margin-right: 15px;
+    text-transform: uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+}
+
+.social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+}
+
+.social-icons a:active, .social-icons a:focus, .social-icons a:hover{
+    color:#fff;
+    background-color:#29aafe
+}
+
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:35px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#29aafe;
+  background-color:#29aafe;
+}
+
+.col-4{
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
